@@ -10,12 +10,9 @@ public class Calculator {
         return a - b;
     }
 
+    @SuppressWarnings("IntegerDivisionInFloatingPointContext")
     public int division(int a, int b){
-        if(b!=0) {
             return a / b;
-        }else{
-            return -1;
-        }
     }
     public void timeout(int time){
         try{
